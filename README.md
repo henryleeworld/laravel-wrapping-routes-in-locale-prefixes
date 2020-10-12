@@ -1,4 +1,4 @@
-# Laravel 7 本地化支援多語系網址前綴封裝路由
+# Laravel 8 本地化支援多語系網址前綴封裝路由
 
 引入 getsupercode 的 localizater 套件來擴增本地化支援多語系網址前綴的路由，可以根據輸入的多語系網址前綴來切換語系。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/k7QV8kt.gif)
+![](https://i.imgur.com/89cdMiJ.gif)
 > 根據輸入的多語系網址前綴來切換語系

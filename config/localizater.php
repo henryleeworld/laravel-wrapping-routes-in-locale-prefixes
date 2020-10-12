@@ -13,9 +13,14 @@ return [
     'locales' => [
         'en' => 'English',
         'zh_TW' => 'Traditional Chinese',
-        'zh_HK' => 'Traditional Chinese',
-        'zh_CN' => 'Simplified Chinese',
     ],
+
+    /**
+     * RTL Locales.
+     *
+     * Locales listed here will have special layout direction.
+     */
+    'rtl_locales' => ['ar'],
 
     /**
      * Prefix default locale or not.
