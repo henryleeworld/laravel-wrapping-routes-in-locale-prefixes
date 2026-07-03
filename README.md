@@ -1,6 +1,6 @@
-# Laravel 8 本地化支援多語系網址前綴封裝路由
+# Laravel 12 本地化支援多語系網址前綴封裝路由
 
-引入 getsupercode 的 localizater 套件來擴增本地化支援多語系網址前綴的路由，可以根據輸入的多語系網址前綴來切換語系。
+引入 opgginc 的 codezero-laravel-localized-routes 套件來擴增本地化支援多語系網址前綴的路由，可以根據輸入的多語系網址前綴來切換語系。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/{語系}` 來進行切換語系，例如：http://127.0.0.1:8000/zh_TW。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/89cdMiJ.gif)
+![](https://i.imgur.com/rqHK9KP.gif)
 > 根據輸入的多語系網址前綴來切換語系
