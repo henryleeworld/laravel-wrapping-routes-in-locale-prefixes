@@ -1,4 +1,4 @@
-# Laravel 12 本地化支援多語系網址前綴封裝路由
+# Laravel 13 本地化支援多語系網址前綴封裝路由
 
 引入 opgginc 的 codezero-laravel-localized-routes 套件來擴增本地化支援多語系網址前綴的路由，可以根據輸入的多語系網址前綴來切換語系。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/rqHK9KP.gif)
+![](https://i.imgur.com/uOnlyfR.gif)
 > 根據輸入的多語系網址前綴來切換語系
